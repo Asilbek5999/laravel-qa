@@ -1,4 +1,5 @@
-<div class="row mt-5">
+@if($answersCount>0)
+    <div class="row mt-5">
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
@@ -48,3 +49,4 @@
         </div>    
     </div>
 </div>
+@endif
